@@ -126,7 +126,7 @@ body {
 
 .hero .content p {
     font-size: 1.3rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
     line-height: 1.4;
     font-weight: 400;
     text-shadow: 1px 1px 3px rgba(225,225,225,0.5);
@@ -134,7 +134,7 @@ body {
 }
 
 .hero .content .cta {
-    margin-top: 1rem;
+    margin-top: 3rem;
     display: inline-block;
     padding: 1rem 2rem;
     font-size: 1.5rem;
@@ -208,6 +208,9 @@ body {
 }
 
 .menu .row .menu-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
     padding-bottom: 4rem;
 }
@@ -216,10 +219,32 @@ body {
     border: 5px solid #4f810d;
     border-radius: 20px;
     width: 80%;
+    margin: auto;
 }
 
 .menu .row .menu-card .menu-card-title {
     margin: .8rem auto .2rem;
+}
+
+.menu .row .menu-card .price-add {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .row .menu-card .price-add p {
+    margin-right: 15px;
+}
+
+.menu .row .menu-card .price-add button {
+    background-color: #4f810d;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: 300;
+    font-family: 'poppins';
+    cursor: pointer;
+    color: #e1e1e1;
 }
 
 /* Contact Section */
